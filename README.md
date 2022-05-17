@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### npm i express mongoose body-parser nodemon
+api klasörü backend / client klasörü frontend
+express backend framework.
+mongoose veritabanı ile bağlantı sağlayacak kütüphane
+cors farklı port giriş yapmayı kolaylaştıran kütüphane
+body-parser gönderdiğimiz requestleri parçalayan kütüphane
+nodemon durdurup yeniden çalıştırmak yerine server sürekli çalışsın diye kullandık.
+MongoDB Sql tabanlı değil bu yüzden model oluşturmamız gerekiyor. models diye klasör oluşturdum. models altında bookmodel.js ile modelimizi oluşturduk.
+
+bootstrap css ve js index.html de kullandık.
+npm i axios
+npm install react-router-dom
